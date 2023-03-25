@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Skeleton from 'react-loading-skeleton';
+import { NavLink } from 'react-router-dom';
 
 
 const Products = () => {
@@ -62,7 +63,7 @@ const Products = () => {
                                                             </div>
                                                            
                                                             <div class="card-body lead fw-bold">
-                                                                  <a href="#" className='btn btn-outline dark'>BUY NOW</a>
+                                                                  <NavLink to={`products/${product.id}`}href="#" className='btn btn-outline dark'>BUY NOW</NavLink>
                                                                   
                                                             </div>
                                                 </div>
