@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className='hero'>
       <div className="card bg-dark text-white">
-  <img src='assets/image-1.jpg' class="card-img" alt="image1" height="550"/>
+  <img src='assets/image-1.jpg' className="card-img" alt="image1" height="450"/>
   <div className='card-img-overlay d-flex  flex-column justify-content-center'>
       <div className='container'>
       <h5 className='card-title display-3 fw-bolder mb-0'>NEW ARRIVALS</h5>
